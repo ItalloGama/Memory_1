@@ -6,7 +6,8 @@
 
 [GitHub](https://github.com/ItalloGama) |
 [Instagram](https://www.instagram.com/gamarayz94/)|
-[T.B.D](https://please-enter-random-site-here)
+[T.B.D](https://please-enter-random-site-here)|
+[Trello](https://trello.com/b/ndBnqoPe/memory-game)
 ***
 
 ### ***Description***

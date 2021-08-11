@@ -3,11 +3,15 @@ for (let i = 0; i < tiles.length; i++) {
   tiles[i].addEventListener('click', tileClick)
 }
 
-let gameSequence = document.getElementById('gameSequence')
+
+setTimeout(function(){
+    let gameSequence = document.getElementById('gameSequence')
+    gameSequence.parentNode.removeChild(gameSequence)
+}, 4000);
 let turn = 0
 // console.log(tiles)
 const levelSequence1 = [0, 4, 0]
-const playerChoices = []
+let playerChoices = []
 
 function tileClick(event) {
   let playerChoice = parseInt(event.target.id)
@@ -17,6 +21,7 @@ function tileClick(event) {
   console.log(`turn; ${turn}`)
   console.log(`playerChoice; ${playerChoice}`)
   turn++
+  checkWinner()
   if (match === false) {
     gameLost()
   }
@@ -31,6 +36,8 @@ function gameLost() {
 function checkWinner() {
   if (playerChoices.length === levelSequence1.length) {
     alert('we have a winner')
+    turn = 0
+    playerChoices = []
   }
 }
 function checkMatch(playerChoice, sequesenceValue) {
@@ -41,19 +48,3 @@ function checkMatch(playerChoice, sequesenceValue) {
   }
 }
 
-// tileId1.addEventListener('click', (event) => {
-//     console.log(parseInt(event.target.id))
-//     playerChoice.push(parseInt(event.target.id))
-// })
-// tileId2.addEventListener('click', (event) => {
-//     console.log(parseInt(event.target.id))
-//     playerChoice.push(parseInt(event.target.id))
-// })
-// tileId3.addEventListener('click', (event) => {
-//     console.log(parseInt(event.target.id))
-//     playerChoice.push(parseInt(event.target.id))
-// })
-// tileId4.addEventListener('click', (event) => {
-//     console.log(parseInt(event.target.id))
-//     playerChoice.push(parseInt(event.target.id))
-// })

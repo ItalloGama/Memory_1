@@ -51,7 +51,38 @@ text-align: center;
     background-color: cornsilk;
     color: rgb(107, 198, 204);
 }
-/* .tile0{
-
-background-color: ;
-} */
+.tile0 {
+    background-color: rgb(18, 18, 143);
+}
+.tile1 {
+    background-color: rgb(167, 0, 0);
+}
+.tile2 {
+    background-color: rgb(164, 167, 29);
+}
+.tile3 {
+    background-color: rgb(93, 141, 49);
+}
+.tile4 {
+    background-color: rgb(148, 45, 151);
+}
+.tile0:hover,
+.tile0:focus {
+background-color: rgb(0, 14, 211);
+}
+.tile1:hover,
+.tile1:focus {
+background-color: rgb(187, 0, 0);
+}
+.tile2:hover,
+.tile2:focus {
+background-color: rgb(194, 197, 34);
+}
+.tile3:hover,
+.tile3:focus {
+background-color: rgb(114, 172, 61);
+}
+.tile4:hover,
+.tile4:focus {
+background-color: rgb(173, 54, 177);
+}

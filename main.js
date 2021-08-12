@@ -7,9 +7,8 @@ for (let i = 0; i < tiles.length; i++) {
 setTimeout(function(){
     let gameSequence = document.getElementById('gameSequence')
     gameSequence.parentNode.removeChild(gameSequence)
-}, 4000);
+}, 3000);
 let turn = 0
-// console.log(tiles)
 const levelSequence1 = [0, 4, 0]
 let playerChoices = []
 

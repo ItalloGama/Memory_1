@@ -7,12 +7,11 @@ for (let i = 0; i < tiles.length; i++) {
 setTimeout(function(){
     let gameSequence = document.getElementById('gameSequence')
     gameSequence.parentNode.removeChild(gameSequence)
-}, 4000);
+}, 3000);
 let turn = 0
-// console.log(tiles)
-const levelSequence2 = [0, 4, 0, 3, 2]
-let playerChoices = []
 
+const levelSequence2 = [1, 4, 0, 3, 2]
+let playerChoices = []
 function tileClick(event) {
   let playerChoice = parseInt(event.target.id)
   let match = checkMatch(playerChoice, levelSequence2[turn])

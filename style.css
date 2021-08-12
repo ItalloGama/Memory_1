@@ -86,3 +86,23 @@ background-color: rgb(114, 172, 61);
 .tile4:focus {
 background-color: rgb(173, 54, 177);
 }
+.tile0:active,
+.tile0.activated {
+background-color: rgb(47, 60, 252);
+}
+.tile1:active,
+.tile1.activated {
+background-color: rgb(253, 67, 67);
+}
+.tile2:active,
+.tile2.activated {
+background-color: rgb(236, 240, 41);
+}
+.tile3:active,
+.tile3.activated {
+background-color: rgb(152, 228, 81);
+}
+.tile4:active,
+.tile4.activated {
+background-color: rgb(229, 69, 235);
+}

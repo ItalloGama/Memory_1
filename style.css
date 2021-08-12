@@ -1,3 +1,12 @@
+:root {
+    --gradient: linear-gradient(45deg,
+        rgb(128, 219, 255),
+        rgb(74, 200, 250), 
+        rgb(32, 180, 238),
+        rgb(18, 152, 206), 
+        rgb(0, 116, 161)
+    );
+}
 * {
     padding: 0;
     margin: 0;
@@ -9,6 +18,14 @@ h1 {
 }
 body{
     background-color: rgb(107, 198, 204);
+    min-height: 100vh;
+    background-image: var(--gradient);
+    background-size: 300%;
+    animation: newBackground 10s infinite alternate;
+}
+@keyframes newBackground {
+    0% {background-position: left;}
+    100%{background-position: right;}
 }
 #gameBoard {
     display: flex;
@@ -32,6 +49,7 @@ body{
     font-size: 100px;
     background-color: rgb(108, 196, 236); 
     border:black solid 1px;
+    border-radius: 10%;
 }
 .buttonSec {
     display: flex;
@@ -42,67 +60,69 @@ a {
 text-align: center;
 }
 .button {
+    cursor: pointer;
     font-weight: 100;
     font-size: 20px;
     border: solid 2px rgb(107, 198, 204);
     border-radius: 10px;
     padding: 15px 20px;
     width: 10%;
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
     color: rgb(107, 198, 204);
+    background-image: linear-gradient(red, blue);
 }
 .tile0 {
-    background-color: rgb(18, 18, 143);
+    background-color: rgb(71, 71, 160);
 }
 .tile1 {
-    background-color: rgb(167, 0, 0);
+    background-color: rgb(160, 53, 53);
 }
 .tile2 {
-    background-color: rgb(164, 167, 29);
+    background-color: rgb(160, 161, 67);
 }
 .tile3 {
-    background-color: rgb(93, 141, 49);
+    background-color: rgb(108, 131, 87);
 }
 .tile4 {
-    background-color: rgb(148, 45, 151);
+    background-color: rgb(159, 94, 161);
 }
 .tile0:hover,
 .tile0:focus {
-background-color: rgb(0, 14, 211);
+background-color: rgb(98, 104, 194);
 }
 .tile1:hover,
 .tile1:focus {
-background-color: rgb(187, 0, 0);
+background-color: rgb(199, 92, 92);
 }
 .tile2:hover,
 .tile2:focus {
-background-color: rgb(194, 197, 34);
+background-color: rgb(194, 196, 81);
 }
 .tile3:hover,
 .tile3:focus {
-background-color: rgb(114, 172, 61);
+background-color: rgb(132, 172, 94);
 }
 .tile4:hover,
 .tile4:focus {
-background-color: rgb(173, 54, 177);
+background-color: rgb(174, 84, 177);
 }
 .tile0:active,
 .tile0.activated {
-background-color: rgb(47, 60, 252);
+background-color: rgb(123, 132, 255);
 }
 .tile1:active,
 .tile1.activated {
-background-color: rgb(253, 67, 67);
+background-color: rgb(253, 119, 119);
 }
 .tile2:active,
 .tile2.activated {
-background-color: rgb(236, 240, 41);
+background-color: rgb(253, 255, 152);
 }
 .tile3:active,
 .tile3.activated {
-background-color: rgb(152, 228, 81);
+background-color: rgb(194, 245, 146);
 }
 .tile4:active,
 .tile4.activated {
-background-color: rgb(229, 69, 235);
+background-color: rgb(242, 121, 247);
 }

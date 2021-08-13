@@ -1,3 +1,4 @@
+
 let tiles = document.querySelectorAll('.tiles')
 for (let i = 0; i < tiles.length; i++) {
   tiles[i].addEventListener('click', tileClick)

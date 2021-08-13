@@ -56,6 +56,11 @@ body{
     justify-content: center;
     margin-top: 2%;
 }
+.extraHelp {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
 a {
 text-align: center;
 }
@@ -70,6 +75,18 @@ text-align: center;
     /* background-color: cornsilk; */
     color: rgb(107, 198, 204);
     background-image: linear-gradient(red, blue);
+}
+.extraB {
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 20px;
+    border: solid 2px rgb(107, 198, 204);
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 10%;
+    /* background-color: cornsilk; */
+    color: rgb(107, 198, 204);
+    background-image: linear-gradient(red, blue);  
 }
 .tile0 {
     background-color: rgb(71, 71, 160);

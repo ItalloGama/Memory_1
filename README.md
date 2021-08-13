@@ -1,4 +1,4 @@
-# Tiles
+# [Tiles](http://gamatiles.surge.sh/)
 
 ## Date: 08/13/2021
 
@@ -10,9 +10,10 @@
 [Trello](https://trello.com/b/ndBnqoPe/memory-game)
 ***
 
+## ***The game to test your memory***
 ### ***Description***
+* Choose your difficulty! Once chosen you will have three seconds before the sequence disappears. The "sequence" button will reset and re-populate the sequence. The game is simple enough! but one mistake and its over. May the tiles be ever in your favor.
 
-### The game to test your memory
 
 ### ***Techmologies used***
 
@@ -23,7 +24,7 @@
 
 ### ***Getting started***
 
-* go to [Tiles](https://gamatiles.surge.sh/index.html)
+* Go to the [Tiles](https://gamatiles.surge.sh/index.html) website.
 
 
 ### ***Future Updates***
@@ -33,6 +34,11 @@
 
 ### Screenshot
 ![Tiles](tilespic.png "Title")
+![Tiles](tilepic2.png "Title")
+***
 ***credits***
-*[Kevin Powell](https://www.youtube.com/kepowob)
+* Thank you [Kevin Powell](https://www.youtube.com/kepowob), subscribe to his youtube page for fantastic CSS content.
+* Thank you to [W3Schools](https://www.w3schools.com/), for the general help and instructive information.
+* Thank you to [MDN Web Docs](https://developer.mozilla.org/en-US/), for the general help and instructive information.
+* Thank you to[Stack Overflow](https://stackoverflow.com/), for the general help and instructive information.
 

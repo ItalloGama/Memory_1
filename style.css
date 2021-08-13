@@ -66,6 +66,7 @@ a {
 text-align: center;
 }
 .button {
+    text-decoration: none;
     cursor: pointer;
     font-weight: 100;
     font-size: 20px;
@@ -78,6 +79,7 @@ text-align: center;
     background-image: linear-gradient(rgb(12, 175, 240), rgb(0, 112, 204));
 }
 .extraB {
+    text-decoration: none;
     cursor: pointer;
     font-weight: 100;
     font-size: 20px;
@@ -90,19 +92,19 @@ text-align: center;
     background-image: linear-gradient(rgb(12, 175, 240), rgb(0, 112, 204));  
 }
 .tile0 {
-    background-color: rgb(42, 63, 179);
+    background-color: rgb(60, 79, 190);
 }
 .tile1 {
-    background-color: rgb(160, 53, 53);
+    background-color: rgb(184, 72, 72);
 }
 .tile2 {
-    background-color: rgb(160, 161, 67);
+    background-color: rgb(187, 189, 90);
 }
 .tile3 {
-    background-color: rgb(108, 131, 87);
+    background-color: rgb(139, 168, 112);
 }
 .tile4 {
-    background-color: rgb(159, 94, 161);
+    background-color: rgb(186, 109, 189);
 }
 .tile0:hover,
 .tile0:focus {
@@ -114,15 +116,15 @@ background-color: rgb(199, 92, 92);
 }
 .tile2:hover,
 .tile2:focus {
-background-color: rgb(194, 196, 81);
+background-color: rgb(215, 216, 132);
 }
 .tile3:hover,
 .tile3:focus {
-background-color: rgb(132, 172, 94);
+background-color: rgb(175, 211, 141);
 }
 .tile4:hover,
 .tile4:focus {
-background-color: rgb(174, 84, 177);
+background-color: rgb(221, 122, 224);
 }
 .tile0:active,
 .tile0.activated {
@@ -134,13 +136,13 @@ background-color: rgb(253, 119, 119);
 }
 .tile2:active,
 .tile2.activated {
-background-color: rgb(253, 255, 152);
+background-color: rgb(254, 255, 181);
 }
 .tile3:active,
 .tile3.activated {
-background-color: rgb(194, 245, 146);
+background-color: rgb(207, 248, 169);
 }
 .tile4:active,
 .tile4.activated {
-background-color: rgb(242, 121, 247);
+background-color: rgb(252, 172, 255);
 }

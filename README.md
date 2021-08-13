@@ -1,12 +1,12 @@
-# Embrace the Tile
+# Tiles
 
-## Date: TBD
+## Date: 08/13/2021
 
 ### By: Itallo Gama
 
 [GitHub](https://github.com/ItalloGama) |
 [Instagram](https://www.instagram.com/gamarayz94/)|
-[T.B.D](https://please-enter-random-site-here)|
+[LinkedIn](https://www.linkedin.com/in/itallo-gama/)|
 [Trello](https://trello.com/b/ndBnqoPe/memory-game)
 ***
 
@@ -23,15 +23,16 @@
 
 ### ***Getting started***
 
-Run the index.html file to open site (coming soon)
+* go to [Tiles](https://gamatiles.surge.sh/index.html)
 
 
 ### ***Future Updates***
+* Illumination uppon order for sequence
+* Button graphic updates
+* Extra levels
 
-Upcoming
-
-
+### Screenshot
+![Tiles](tilespic.png "Title")
 ***credits***
-
-N/A
+*[Kevin Powell](https://www.youtube.com/kepowob)
 

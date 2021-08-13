@@ -1,3 +1,12 @@
+:root {
+    --gradient: linear-gradient(45deg,
+        rgb(128, 219, 255),
+        rgb(74, 200, 250), 
+        rgb(32, 180, 238),
+        rgb(18, 152, 206), 
+        rgb(0, 116, 161)
+    );
+}
 * {
     padding: 0;
     margin: 0;
@@ -6,9 +15,18 @@
 h1 {
     text-align: center;
     font-size: 70px;
+    color:rgb(247, 255, 225)
 }
 body{
     background-color: rgb(107, 198, 204);
+    min-height: 100vh;
+    background-image: var(--gradient);
+    background-size: 300%;
+    animation: newBackground 10s infinite alternate;
+}
+@keyframes newBackground {
+    0% {background-position: left;}
+    100%{background-position: right;}
 }
 .introBoard {
     display: flex;
@@ -31,6 +49,7 @@ body{
     text-align: center;
     margin-top: 15%;
     font-size: 50px;
+    color: rgb(247, 255, 225);
 }
 .buttonSec {
     display: flex;
@@ -41,12 +60,14 @@ a {
 text-align: center;
 }
 .button {
+    cursor: pointer;
     font-weight: 100;
     font-size: 20px;
     border: solid 2px rgb(107, 198, 204);
     border-radius: 10px;
     padding: 15px 20px;
     width: 10%;
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
     color: rgb(107, 198, 204);
+    background-image: linear-gradient(rgb(12, 175, 240), rgb(0, 112, 204));
 }

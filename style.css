@@ -15,6 +15,7 @@
 h1 {
     text-align: center;
     font-size: 70px;
+    color: rgb(247, 255, 225);
 }
 body{
     background-color: rgb(107, 198, 204);
@@ -74,7 +75,7 @@ text-align: center;
     width: 10%;
     /* background-color: cornsilk; */
     color: rgb(107, 198, 204);
-    background-image: linear-gradient(red, blue);
+    background-image: linear-gradient(rgb(12, 175, 240), rgb(0, 112, 204));
 }
 .extraB {
     cursor: pointer;
@@ -86,10 +87,10 @@ text-align: center;
     width: 10%;
     /* background-color: cornsilk; */
     color: rgb(107, 198, 204);
-    background-image: linear-gradient(red, blue);  
+    background-image: linear-gradient(rgb(12, 175, 240), rgb(0, 112, 204));  
 }
 .tile0 {
-    background-color: rgb(71, 71, 160);
+    background-color: rgb(42, 63, 179);
 }
 .tile1 {
     background-color: rgb(160, 53, 53);

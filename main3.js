@@ -1,8 +1,16 @@
+let extraHelp = document.querySelector('#help')
+let extraButton = document.querySelector('#motiv')
 let tiles = document.querySelectorAll('.tiles')
 for (let i = 0; i < tiles.length; i++) {
   tiles[i].addEventListener('click', tileClick)
 }
 
+extraHelp.addEventListener('click', () => {
+  alert ('Just look at the sequence and click the Tiles! have fun!')
+})
+extraButton.addEventListener('click', () => {
+  alert ('Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you! Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you')
+})
 
 setTimeout(function(){
     let gameSequence = document.getElementById('gameSequence')
